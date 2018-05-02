@@ -8,4 +8,4 @@ do
 done
 
 echo "rsync -rv $exclude_parameters $PWD/ $rsync"
-rsync -rv $exclude_parameters "$WERCKER_ROOT/" "$WERCKER_OUTPUT_DIR"
+rsync -rv $exclude_parameters "$PWD/" "$WERCKER_OUTPUT_DIR"
